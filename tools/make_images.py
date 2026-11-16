@@ -53,7 +53,7 @@ def _save(rel: str, color, caption: str, xmp: bytes = None) -> None:
 
 
 def main() -> None:
-    # Blog: og:image covers (not shown in the page body) and a different
+    # Blog: og:image covers (shown above each post's <article>) and a different
     # first-in-content image per post.
     _save("blog/img/cover-1.jpg", (32, 96, 160), "Cover 1 (og:image)")
     _save("blog/img/cover-2.jpg", (32, 140, 96), "Cover 2 (og:image)")

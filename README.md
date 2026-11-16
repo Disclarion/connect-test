@@ -16,7 +16,7 @@ Static HTML on GitHub Pages: no build step, no tracking, no cookies.
 |---|---|
 | `/` | Home, links to every page |
 | `/blog/` | Blog index |
-| `/blog/post-1/`, `/blog/post-2/` | An `og:image` cover (only in the meta tag) and a different first image in the content |
+| `/blog/post-1/`, `/blog/post-2/` | An `og:image` cover, also shown as an image above the `<article>`, and a different first image in the content |
 | `/blog/post-3/` | Same, and the `og:image` cover carries IPTC AI metadata (`blog/img/cover-3.jpg`) |
 | `/gallery/` | Three plain images, no metadata |
 | `/c2pa/` | `lighthouse-gothenburg.png`: Content Credentials from a signer on the C2PA trust list, digital source type `trainedAlgorithmicMedia` |
