@@ -62,6 +62,9 @@ def main() -> None:
     _save("blog/img/post-1-inline.jpg", (200, 120, 40), "Post 1, first in content")
     _save("blog/img/post-2-inline.jpg", (90, 90, 180), "Post 2, first in content")
     _save("blog/img/post-3-inline.jpg", (60, 130, 140), "Post 3, first in content")
+    # Post 4 was added after a /blog/ rule existed (rules only decide new items).
+    _save("blog/img/cover-4.jpg", (170, 130, 40), "Cover 4 (og:image)")
+    _save("blog/img/post-4-inline.jpg", (120, 60, 160), "Post 4, first in content")
     # Gallery: plain images, no metadata.
     _save("gallery/img/plain-1.jpg", (110, 110, 110), "Gallery 1")
     _save("gallery/img/plain-2.jpg", (140, 80, 60), "Gallery 2")
